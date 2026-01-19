@@ -6,4 +6,5 @@ for (let i = 0; i < INITIAL_GRID_SIZE * INITIAL_GRID_SIZE; i++) {
     const cell = document.createElement("div");
     cell.classList.add("cell");
     container.appendChild(cell);
+    cell.addEventListener('mouseenter', () => cell.classList.add("hover"));
 }
