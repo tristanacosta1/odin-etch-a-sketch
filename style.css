@@ -2,10 +2,14 @@
     box-sizing: border-box;
 }
 
+body {
+
+}
+
 #flex-container {
     display: flex;
     flex-wrap: wrap;
-    width: 676px;
+    width: 960px;
     margin: auto;
 }
 
